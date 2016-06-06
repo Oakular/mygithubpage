@@ -1,0 +1,19 @@
+#header {
+	background-color: #009ddc;
+	text-align: center;
+	font-family: sans-serif;
+	color: #ffffff;
+}
+
+#name {
+	margin-bottom: -20px;
+}
+
+#menu {
+	font-family: "Source Code Pro";
+    border-top: 3px solid #1565C0;
+    width: 40%;
+    height: 0%;
+	margin: auto;
+    padding: 0%;
+}
