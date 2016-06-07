@@ -1,19 +1,33 @@
+html * {
+	font-family: "Source Code Pro";
+}
+
 #header {
 	background-color: #009ddc;
 	text-align: center;
 	font-family: sans-serif;
 	color: #ffffff;
+
+
 }
 
 #name {
 	margin-bottom: -20px;
 }
 
+
 #menu {
-	font-family: "Source Code Pro";
-    border-top: 3px solid #1565C0;
-    width: 40%;
+	font-size: xx-large;
+
+    width: 70%;
     height: 0%;
 	margin: auto;
     padding: 0%;
+}
+
+.content {
+	width: 70%;
+	height: auto;
+	margin: auto;
+	background-color: #e7e7e8;
 }
