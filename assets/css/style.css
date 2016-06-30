@@ -9,26 +9,26 @@
    
     ========================================================  */
 /* ===========================================================
-   GENERAL STYLES   
+   GENERAL STYLES
    ============================================================*/
 body {
    font-family:'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    color: #000;   
-    margin-top: 40px;
-    line-height:16px;
+   font-weight: 400;
+   font-size: 14px;
+   color: #000;
+   margin-top: 40px;
+   line-height:16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-      font-family:'Open Sans', sans-serif;
-    font-weight: 500;
+   font-family:'Open Sans', sans-serif;
+   font-weight: 500;
    line-height:40px;
-   
+
 }
 
 h1 {
-    color:#11B674;
+    color:#009ddc;
     font-weight: 700;
 }
 .text-center {
@@ -36,14 +36,19 @@ h1 {
 }
 
 .main-top-margin {
-     margin-top: 75px;
+	margin-top: 75px;
 }
 .main-low-margin {
-     margin-top: 55px;
+    margin-top: 55px;
 }
 
-a,a:hover {
+a {
     text-decoration:none;
+}
+
+a:hover {
+    text-decoration:none;
+	color: #009ddc;
 }
 
 p {
@@ -97,7 +102,7 @@ p {
 	text-align:center;
 	background-position: center center;
 	min-height: 700px;
-	width: 100%;	
+	width: 100%;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -133,9 +138,8 @@ p {
 
 #about-section {
     background-color: #FAFAFA;
-   
-}
 
+}
 
 /*==========================================
    SOCIAL ICON STYLES
@@ -144,32 +148,29 @@ p {
 .color-facebook {
     color:#3B5998;
 }
+
 .color-twitter {
      color:#00aced;
 }
-.color-google-plus {
-     color:#dd4b39;
-}
+
 .color-linkedin {
      color:#007bb6;
 }
-.color-pinterest {
-     color:#cb2027;
-}
+
 /* ===========================================================
-   BOOTSTRAP ELEMENTS CHANGES   
+   BOOTSTRAP ELEMENTS CHANGES
    ============================================================*/
 .navbar {
 	font-size: 14px;
 }
 
 .navbar-inverse {
-	background: #000000;
-border-color: #5D5B66;
+	background: #282828;
+	border-color: #5D5B66;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-	background: #ffffff;
+	background: #282828;
 }
 
 .navbar-inverse .navbar-brand {
@@ -180,7 +181,7 @@ border-color: #5D5B66;
 	letter-spacing: 2px;
 }
 .navbar-inverse :hover .navbar-brand:hover {
-	color: #ffffff;	
+	color: #009ddc;
 }
 .navbar-inverse .navbar-nav > li > a {
 color: #FFFFFF;
@@ -196,13 +197,10 @@ color: #FFFFFF;
 /* ==========================================================================
    FOOTER SECTION
    ========================================================================== */
-   
 
 #footer {
-    background-color: #2F11C4; 
-    color: #fff; 
-    text-align: right; 
+    background-color: #282828;
+    color: #fff;
+    text-align: right;
     padding: 10px 30px 10px 30px;
 }
-
-
