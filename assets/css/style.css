@@ -163,27 +163,27 @@ p {
 
 .color-windows {
 	color:#00aedb;
-	padding-right: 15px;
+	margin-right: 15px;
 }
 
 .color-apple {
 	color: #716861;
-	padding-right: 15px;
+	margin-right: 15px;
 }
 
 .color-linux {
-	color: #716861;
+	color: #282828 ;
 }
 
 .color-windows:hover {
-	color:##008baf;
+	color: #008baf;
 }
 
 .color-apple:hover {
 	color: #9b9590;
 }
 .color-linux:hover {
-	color: #FF9900;
+	color: #716861;
 }
 
 /* ===========================================================
