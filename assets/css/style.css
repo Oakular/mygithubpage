@@ -163,12 +163,12 @@ p {
 
 .color-windows {
 	color:#00aedb;
-	padding-right: 10px;
+	padding-right: 15px;
 }
 
 .color-apple {
 	color: #716861;
-	padding-right: 10px;
+	padding-right: 15px;
 }
 
 .color-linux {
@@ -183,7 +183,7 @@ p {
 	color: #9b9590;
 }
 .color-linux:hover {
-	color: #ffcc33;
+	color: #FF9900;
 }
 
 /* ===========================================================
