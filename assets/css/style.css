@@ -145,8 +145,8 @@ p {
    SOCIAL ICON STYLES
     =====================================================*/
 
-.color-facebook {
-    color:#3B5998;
+.color-github {
+	color:#404040;
 }
 
 .color-twitter {
@@ -155,6 +155,35 @@ p {
 
 .color-linkedin {
      color:#007bb6;
+}
+
+/*==========================================
+   OPERATING SYSTEM ICON STYLES
+    =====================================================*/
+
+.color-windows {
+	color:#00aedb;
+	padding-right: 10px;
+}
+
+.color-apple {
+	color: #716861;
+	padding-right: 10px;
+}
+
+.color-linux {
+	color: #716861;
+}
+
+.color-windows:hover {
+	color:##008baf;
+}
+
+.color-apple:hover {
+	color: #9b9590;
+}
+.color-linux:hover {
+	color: #ffcc33;
 }
 
 /* ===========================================================
