@@ -1,0 +1,97 @@
+<h1>
+----- GIT TUTORIAL FOR COMP 208 -----
+</h1>
+
+<h2>
+----- Installation and Video Tutorial
+</h2>
+
+<h3>First you will need to install Git on your system: <a
+    href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Install
+    Link</a><br>
+Second I recommend watching this video:
+    <a
+    href="https://youtu.be/HVsySz-h9r4?list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx">Git
+    Tutorial</a><br>
+    (ensure that you understand the process of pushing and pulling using Git)
+</h3>
+
+<i>If you don't want to watch the video I have made a very brief overview
+    below.<br>
+    It will suffice to get you using Git but the video covers more functionality
+    that is going to be necessary to work effectively as a team</i>
+
+<h2>
+----- First lets clear the confusion:
+</h2>
+
+<h3>
+    ---- Difference between <i>Git</i> and <i>Github</i>:
+</h3>
+
+<ul>
+    <li> Git is the Version Control Software </li>
+    <li> Github is a website to <b>push</b> and <b>pull</b> source code to/from </li>
+
+    <li> Github provides us with a central server to use Git with </li>
+</ul>
+
+<h3>
+---- Git works on all 3 major OSes
+</h3>
+For UNIX systems (Linux, macOS) install Git via the package manager for your
+system. The website link above suggests downloading git directly for Mac. I
+suggest using <a href="http://brew.sh/">Homebrew</a> instead.
+<ul>
+    On Ubuntu: <code> sudo apt-get install git-all </code><br>
+    On macOS (with Homebrew): <code> brew install git </code><br>
+    <b>paste the commands into your terminal</b>
+</ul>
+
+On Windows download the executable file from the website above.
+
+<h3>
+---- I recommend using the terminal commands
+</h3>
+    <h4> Why? </h4>
+    <ul>
+        <li> Once you have learnt them, they are faster to use </li>
+        <li> There is no official Git GUI and in industry not every company uses
+        GitHub. Just knowing their GUI is not good practice </li>
+    </ul>
+
+    <br><br>
+<h2>
+----- MAJOR GIT COMMANDS -----
+</h2>
+    <ul>
+<code> git add <file> </code> : this command tells git to "track" a file. This means git will
+become aware of any changes to the file and will stage them ready for "commit"
+
+<br><br>
+<code> git commit | -a | -m </code> : this command commits a change that you have made. it is
+important to note that this does NOT upload the change to Github.<br> It just locks
+in the change you have made so that the next time you push to Github this commit
+will be uploaded with that push
+    <br>
+    <ul>
+    - The <code>-a</code> flag tells git to add any changed files before making a commit (it
+    skips the use of the add command shown above) <br>
+    - The <code>-m</code> command opens a text editor to add a message alongside a commit. It
+    is good practice to leave a message with every commit to detail it
+    </ul>
+
+<br><br>
+<code> git push <i>git-server-name</i> <i>branch-name</i> </code> : this command
+will push any commits you have made to Github.<br> This is
+the command that uploads those changes to the central repository
+
+<br><br>
+<code> git pull <i>git-server-name</i> <i>branch-name</i> </code> : the pull command syncs your local repository with the one hosted on
+Github. <br>
+This command is used to make your version of the source code up to date
+    </ul>
+
+    <h2><i>If you understand these four commands you can use Git.<br>
+        For the project though you will need most of the knowledge covered in
+        the video above</i></h2>
